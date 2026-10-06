@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Education</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background: #fff9ef;
+        }
+
+        header {
+            background: #ffcf70;
+            padding: 30px 8%;
+            color: #49351b;
+        }
+
+        nav {
+            background: #49351b;
+            padding: 15px 8%;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+
+        .intro {
+            padding: 35px 8%;
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .intro div {
+            flex: 1;
+        }
+
+        .intro img {
+            width: 45%;
+            min-width: 250px;
+            border-radius: 20px;
+        }
+
+        section {
+            padding: 25px 8%;
+        }
+
+        .courses {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .course {
+            background: white;
+            padding: 12px;
+            border-radius: 15px;
+        }
+
+        .course img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 350px;
+            border: 0;
+            border-radius: 15px;
+        }
+
+        footer {
+            background: #49351b;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media(max-width: 700px) {
+            .courses {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>AI Learning Academy</h1>
+    <p>Learn Smarter with Artificial Intelligence</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#courses">Courses</a>
+    <a href="#video">Video</a>
+</nav>
+
+<main>
+
+<section class="intro" id="home">
+
+    <div>
+        <h2>Smart Learning</h2>
+
+        <p>
+            AI student-er learning easy korte
+            personalized study support dite pare.
+        </p>
+    </div>
+
+    <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7">
+
+</section>
+
+<section id="courses">
+
+    <h2>Learning Topics</h2>
+
+    <div class="courses">
+
+        <div class="course">
+            <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173">
+            <h3>Smart Study</h3>
+            <p>AI diye study plan toiri kora jay.</p>
+        </div>
+
+        <div class="course">
+            <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644">
+            <h3>Online Learning</h3>
+            <p>AI online learning-e help kore.</p>
+        </div>
+
+        <div class="course">
+            <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998">
+            <h3>AI Education</h3>
+            <p>Technology diye learning easy hoy.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="video">
+
+    <h2>AI Education Video</h2>
+
+    <iframe
+        src="https://www.youtube.com/embed/AAbbMrfYgrc"
+        title="AI Education Video"
+        allowfullscreen>
+    </iframe>
+
+</section>
+
+</main>
+
+<footer>
+    <p>AI Education Project</p>
+</footer>
+
+</body>
+</html>
